@@ -8,7 +8,7 @@
         margin-left: 10px;
         margin-top: 12px;
         font-size: 28px;
-	line-height: 44px;
+        line-height: 44px;
 
     }
     .textContainer.inside .textBlock {
@@ -21,7 +21,7 @@
     }
 
     .socialLinks a {
-        margin-right: 32px;
+        margin-right: 25px;
     }
 
     .link {
@@ -32,14 +32,14 @@
         font-size: 30px;
         padding-top: 9px;
         height: 46px;
-	line-height: normal;
+        line-height: normal;
     }
 
     .linkMT {
         font-size: 12px;
         padding-top: 11px;
         height: 44px;
-	line-height: normal;
+        line-height: normal;
     }
 
     .spacer {
@@ -49,6 +49,13 @@
     .pictureCaption {
         font-size: 50px;
         margin-top: 0;
+    }
+    .pictureContainer {
+        width: 365px;
+    }
+
+    .picture {
+        width: 320px;
     }
 
     .container {
@@ -73,7 +80,7 @@
     }
 
     .socialLinks a {
-        margin-right: 20px;
+        margin-right: 15px;
     }
 
     .link {
@@ -100,11 +107,29 @@
     .pictureCaption {
         font-size: 50px;
         margin-top: 0;
+        width: 370px;
+    }
+    .pictureContainer {
+        width: 500px;
+    }
+    .picture {
+        width: 320px;
     }
 
     .container {
-        margin-left: calc(50% - 182px);
+        margin-left: calc(50% - 200px);
     }
+    .linkSide {
+        font-size: 17px;
+        margin-left: -4px;
+    }
+}
+
+.linkSide {
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+    margin-bottom: 5px;
+    margin-left: -7px;
 }
 
 
@@ -118,11 +143,6 @@
     border-width: 2px;
     border-style: solid;
     padding: 1px;
-    width: 320px;
-}
-
-.pictureContainer {
-    width: 365px;
 }
 
 .pictureCaption {
@@ -172,6 +192,17 @@
 
 .textBlock a:hover {
     color: var(--icon-hover-color);
+}
+
+.textContainer .header {
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+.textContainer .small {
+    font-size: 22px;
+    line-height: 29.3px;
 }
 
 .pictureCaption a {
