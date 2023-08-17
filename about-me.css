@@ -174,14 +174,14 @@
     .textContainer {
         margin-top: -15px;
         margin-left: 21px;
-        font-size: 27px;
+        font-size: 24px;
         line-height: 33px;
     }
 
     .textContainer .textBlock {
-        width: 326px;
+        width: 330px;
         text-align: justify;
-        font-weight: lighter;
+        font-weight: normal;
     }
 
     .textContainer .small{
@@ -264,7 +264,7 @@
 }
 
 .textBlock .mail{
-    font-weight: 350;
+    font-weight: 450;
 }
 
 .textBlock a:hover {
@@ -273,6 +273,6 @@
 
 .textContainer .header {
     text-decoration: none;
-    font-weight: 400;
+    font-weight: bold;
     color: black;
 }
