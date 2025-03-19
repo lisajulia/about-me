@@ -1,0 +1,278 @@
+@media only screen and (min-width: 990px) {
+    .container {
+        margin-left: calc(50% - 438px);
+        display: flex;
+        margin-top: 50px;
+    }
+
+    a.link {
+        width: 55px;
+        min-width: 55px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .linkCV {
+        font-size: 30px;
+        padding-top: 9px;
+        height: 46px;
+        line-height: normal;
+    }
+
+    .linkGIT {
+        font-size: 16px;
+        padding-top: 8px;
+        line-height: normal;
+        height: 47px;
+        font-weight: 380;
+    }
+
+    .linkIN {
+        font-weight: bold;
+        height: 50px;
+        padding-top: 5px;
+        font-size: 35px;
+    }
+
+    .linkMT {
+        font-size: 11px;
+        padding-top: 15px;
+        height: 40px;
+        line-height: normal;
+        font-weight: 350;
+    }
+    
+    .linkSide{
+        font-size: 21px;
+	margin-bottom: 5px;
+	margin-left: -7px;
+    }
+
+    .picture {
+        width: 320px;
+    }
+
+    .pictureCaption {
+        font-size: 39px;
+        margin-top: 0;
+        font-weight: 400;
+    }
+    .pictureContainer {
+        width: 365px;
+    }
+
+    .socialLinks a {
+        margin-right: 25px;
+    }
+
+    .spacer {
+        height: 21px;
+    }
+    .textContainer.inside {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 23px;
+        line-height: 43.01px;
+
+    }
+
+    .textContainer.inside .textBlock {
+        width: 500px;
+        text-align: justify;
+    }
+
+    .textContainer .small {
+        font-size: 18.5px;
+        line-height: 32.18px;
+    }
+
+
+}
+
+@media only screen and (max-width: 989px) {
+    .container {
+        margin-left: calc(50% - 200px);
+    }
+    
+    a.link {
+        width: 30px;
+        min-width: 30px;
+    }
+
+    .linkCV {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: normal;
+        padding-top: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 33px;
+    }
+
+    .linkGIT {
+        font-size: 11px;
+        font-weight: normal;
+        line-height: normal;
+        padding-top: 7px;
+        padding-left: 5px;
+        padding-right: 6px;
+        height: 33px;
+    }
+
+    .linkIN {
+        font-weight: bold;
+        font-size: 35px;
+        line-height: normal;
+        padding-top: 0px;
+        padding-left: 3px;
+        padding-right: 4px;
+        height: 39px;
+    }
+
+    .linkMT {
+        font-size: 7px;
+        font-weight: normal;
+        line-height: normal;
+        padding-top: 11px;
+        padding-left: 4px;
+        padding-right: 4px;
+        height: 29px;
+    }
+
+    .linkSide {
+        font-size: 15px;
+        margin-left: -4px;
+        margin-bottom: 4px;
+    }
+
+    .picture {
+        width: 320px;
+    }
+
+    .pictureCaption {
+        font-size: 40px;
+        font-weight: normal;
+        margin-top: 0;
+        width: 370px;
+    }
+    .pictureContainer {
+        width: 500px;
+    }
+
+    .socialLinks {
+        width: 37px;
+    }
+    
+    .socialLinks a {
+        margin-right: 11px;
+    }
+
+    .spacer {
+        height: 20px;
+    }
+
+    .textContainer {
+        margin-top: -15px;
+        margin-left: 21px;
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    .textContainer .textBlock {
+        width: 330px;
+        text-align: justify;
+        font-weight: normal;
+    }
+
+    .textContainer .small{
+        font-size: 25px;
+    }
+}
+
+.container {
+    font: small-caption;
+}
+
+.link {
+    background: #CFC4B2;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.link:hover {
+    background: var(--icon-hover-color);
+}
+
+.linkSide {
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+}
+
+.picture {
+    margin: 17px;
+    border-color: #CFC4B2;
+    border-width: 2px;
+    border-style: solid;
+    padding: 1px;
+}
+
+.pictureCaption {
+    text-align: center;
+}
+
+.pictureCaption a {
+    text-decoration: none;
+    color: black;
+}
+
+.pictureCaption a:hover {
+    color: var(--icon-hover-color);
+}
+
+.socialLinks {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.socialLinks a {
+    color: #CFC4B2;
+    text-decoration: none;
+}
+
+.socialLinks a:hover {
+    color: var(--icon-hover-color);
+}
+
+.socialLinks a.link{
+    color: white;
+}
+
+.spacerBottom {
+    height: 20px;
+}
+
+.textBlock {
+    font-weight: normal;
+}
+
+.textBlock a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.textBlock .mail{
+    font-weight: 450;
+}
+
+.textBlock a:hover {
+    color: var(--icon-hover-color);
+}
+
+.textContainer .header {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
